@@ -1,0 +1,8 @@
+setup_commands:
+  - "pip install -r requirements.txt"
+run_commands:
+  - "python src/main.py train --csv data/intent_examples.csv --model artifacts/intent_classifier.joblib"
+  - "python src/main.py predict --model artifacts/intent_classifier.joblib --query \"When does the goal happen?\""
+test_commands:
+  - "python -m unittest discover -s tests -v"
+notes: "Bundled examples are a seed dataset for smoke testing only; production performance must be measured on representative labelled queries."

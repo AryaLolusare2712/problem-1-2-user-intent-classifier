@@ -1,0 +1,81 @@
+query,intent
+Summarize the entire video from beginning to end,whole_video_summary
+Give me the main points covered in this full video,whole_video_summary
+What is this video about overall,whole_video_summary
+Provide a complete overview of the video,whole_video_summary
+Describe the major topics discussed throughout the recording,whole_video_summary
+What happens across the whole clip collection,whole_video_summary
+Summarize the full podcast episode,whole_video_summary
+Give an overview of the entire gameplay recording,whole_video_summary
+What is the overall storyline of this video,whole_video_summary
+Tell me the key events across the entire video,whole_video_summary
+What color is the car in this frame,frame_visual_detail
+Describe the person visible at 00:01:24,frame_visual_detail
+What objects are visible in this image frame,frame_visual_detail
+Is the player holding a red or blue item in this frame,frame_visual_detail
+Describe the background in the frame at 12 seconds,frame_visual_detail
+What animal appears in this particular frame,frame_visual_detail
+Read the visual details of the frame at 00:03:20,frame_visual_detail
+Is there a person on the left side of this frame,frame_visual_detail
+What does the scene look like at this timestamp,frame_visual_detail
+Identify the object shown in the selected frame,frame_visual_detail
+When does the person enter the room,clip_temporal_event
+Find the segment where the dog jumps over the fence,clip_temporal_event
+At what timestamp does the goal happen,clip_temporal_event
+Show the part where the speaker starts laughing,clip_temporal_event
+Find the clip where the player opens the inventory,clip_temporal_event
+When does the camera move outside,clip_temporal_event
+Locate the section where the animal begins running,clip_temporal_event
+Find the moment the car crashes,clip_temporal_event
+Which segment contains the argument,clip_temporal_event
+Find the part where the presenter changes slides,clip_temporal_event
+What does the host say about pricing,speech_audio_query
+Find where the guest mentions their hometown,speech_audio_query
+Which timestamp contains the phrase machine learning,speech_audio_query
+Transcribe the sentence spoken after the intro,speech_audio_query
+Who says the words we should leave now,speech_audio_query
+Find the section where the narrator explains the rules,speech_audio_query
+What is said between minute five and six,speech_audio_query
+Search the dialogue for the word tomorrow,speech_audio_query
+At what point does the interviewer ask about education,speech_audio_query
+Find the spoken instructions for the next level,speech_audio_query
+What text is written on the sign in this frame,on_screen_text_query
+Read the scoreboard at 00:08:30,on_screen_text_query
+Which slide shows the phrase system architecture,on_screen_text_query
+Extract the subtitles shown near the end,on_screen_text_query
+What is the number displayed on the game HUD,on_screen_text_query
+Read the label on the bottle,on_screen_text_query
+What does the banner say in the scene,on_screen_text_query
+Find frames containing the word WARNING,on_screen_text_query
+What is the title visible on the presentation slide,on_screen_text_query
+Read the text in the top right corner,on_screen_text_query
+How many people are in this frame,object_count_query
+Count the cars visible at the intersection,object_count_query
+How many animals appear in the scene,object_count_query
+Count the players wearing red jerseys,object_count_query
+How many times does the person pick up an object,object_count_query
+Count the vehicles that pass the camera,object_count_query
+How many cups are on the table in this frame,object_count_query
+Count the goals scored in this match,object_count_query
+How many speakers are visible on screen,object_count_query
+Count the birds in the selected scene,object_count_query
+Compare the two videos and explain the differences,cross_video_comparison
+Which video has more wildlife activity,cross_video_comparison
+Compare the speakers shown in these recordings,cross_video_comparison
+Find differences between clip A and clip B,cross_video_comparison
+Which of these videos contains a goal,cross_video_comparison
+Compare the scenes at the same timestamp in both videos,cross_video_comparison
+Which recording has more people,cross_video_comparison
+Compare the opening scenes of both videos,cross_video_comparison
+What changed between these two gameplay recordings,cross_video_comparison
+Compare the audio and visual events across these videos,cross_video_comparison
+Find videos related to a forest at night,general_semantic_search
+Search the corpus for a cooking scene,general_semantic_search
+Find footage related to city traffic,general_semantic_search
+Retrieve clips about a person riding a bicycle,general_semantic_search
+Search videos containing a beach and sunset,general_semantic_search
+Find content related to a basketball game,general_semantic_search
+Look for a scene involving a red backpack,general_semantic_search
+Find relevant footage of a classroom,general_semantic_search
+Search for videos about repairing an engine,general_semantic_search
+Find any content matching this description,general_semantic_search
